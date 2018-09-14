@@ -16,6 +16,7 @@
 
 
 /* Structural Styles */
+/* defining main colors and fonts */
 html {
     background-color:  rgb(151, 151, 151);
 }
@@ -35,6 +36,7 @@ footer {
     padding-bottom: 1px;
 }
 /* Body Header Styles */
+/* using direct children to define specific styles */
 body > header {
     background-color: rgb(97, 97, 211);
 }
@@ -51,6 +53,7 @@ h1 span {
 
 
 /* Navigation Styles */
+/* using psuedo classes and ID's to define how links react */
 nav a:link, nav a:visited {
     text-decoration: none;
 }
@@ -68,6 +71,7 @@ nav#mainLinks a:hover, nav#mainlinks a:active {
 
 
 /* Outline Styles */
+/* using ID's to style specific elements */
 nav#outline {
     color: rgb(51, 51, 51);
     font-size: 0.8em;
